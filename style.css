@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(0deg, #dcc9e50f, #b18bd536);
+    color: #443C68;
+    font-family: 'Domine', serif;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+}
+
+#izq{
+    background: linear-gradient(348deg, #b18bd554, transparent);
+    width: 322px;
+}
+
+#foto{
+    z-index: 1;
+    position: static;
+    width: 321px;
+    margin-top: 26px;
+}
+
+#uno{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.uno-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    justify-content: center;
+    color: #635985;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+i{
+    color: rgba(0, 0, 0, 0.521);
+    margin: 5px;
+    font-size: 15px;
+}
+
+i:hover{
+    color: palevioletred;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.dos{
+    width: 238px;
+    margin-left: 50px;
+    margin-top: 41px;
+    margin-bottom: 32px;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
+
+#or-mu{
+    animation: or-barra 2s forwards;
+}
+
+@keyframes or-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#te-mu{
+    animation: te-barra 2s forwards;
+}
+
+@keyframes te-barra{
+    100%{
+        width: 95%;
+    }
+}
+
+#a-mu{
+    animation: a-barra 2s forwards;
+}
+
+@keyframes a-barra{
+    100%{
+        width: 97%;
+    }
+}
+
+#e-mu{
+    animation: e-barra 2s forwards;
+}
+
+@keyframes e-barra{
+    100%{
+        width: 95%;
+    }
+}
+
+#pc-mu{
+    animation: pc-barra 2s forwards;
+}
+
+@keyframes pc-barra{
+    100%{
+        width: 92%;
+    }
+}
+
+#html-mu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#css-mu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#js-mu{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+#in-mu{
+    animation: in-barra 2s forwards;
+}
+
+@keyframes in-barra{
+    100%{
+        width: 30%;
+    }
+}
+
+#der{
+    width: 625px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+h2{
+    color: #766f8d;
+    font-size: 33px;
+    margin-left: 69px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+
+p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+h4{
+    border-radius: 11px;
+    background-color: #db709373;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+.edu{
+    display: flex;
+    margin-top: 30px;
+}
+
+#pro{
+    margin-left: 50px;
+}
+
+#af{
+    margin-left: 75px;
+    margin-top: 5px;
+}
+
+#tec{
+    margin-left: 87px;
+    margin-top: 5px;
+}
+
+#col{
+    margin-left: 86px;
+    margin-top: 19px;
+}
+
+#experiencia{
+    display: flex;
+}
+
+#exp-v{
+    width: 878px;
+    margin-bottom: 32px;
+    margin-right: 25px;
+}
+
+h6{
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #izq{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+@media (max-width:500px) {
+    #izq{
+        margin-left: 144px;
+        background: linear-gradient(348deg, transparent, #b18bd521);
+    } 
+
+    .dos{
+        margin-left: 0px;
+    }
+
+    #der{
+        width: 430px;
+        margin-left: 140px;
+        margin-top: 35px;
+    }
+
+    #af{
+        margin-left: 111px;
+    }
+
+    #tec{
+        margin-left: 136px;
+    }
+
+    #exp-v{
+        margin-left: 11px;
+    }
+}
